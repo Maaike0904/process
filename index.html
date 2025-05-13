@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Swimlane Procesflow</title>
+    <script src="scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="titles">
+        <div>Stap 1</div>
+        <div>Stap 2</div>
+        <div>Stap 3</div>
+        <div>Stap 4</div>
+        <div>Stap 5</div>
+        <div>Stap 6</div>
+        <div>Stap 7</div>
+        <div>Stap 8</div>
+        <div>Stap 9</div>
+        <div>Stap 10</div>
+        <div>Stap 11</div>
+      </div>
+      <div class="lanes">
+        <div>Project manager</div>
+        <div>Project planner</div>
+        <div>Project controller</div>
+        <div>Project coördinator</div>
+        <div>Discipline specialist</div>
+        <div>Foreman</div>
+        <div>Werkvoorbereider</div>
+        <div>Vakman</div>
+      </div>
+      <svg id="connections"></svg>
+      <div class="grid" id="grid">
+        <!-- Alle blokken -->
+        <a
+          href="./documents/Combined Facility Checklist (1).docx"
+          class="block"
+          style="grid-column: 1; grid-row: 1"
+          id="b-1-1"
+          >Planning maken
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 2; grid-row: 1" id="b-1-2"
+          >Looproutes boot
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 4; grid-row: 1" id="b-1-4"
+          >Steigerplan hijsplan
+          <div class="arrow">&rarr;</div></a
+        >
+        <a
+          href="#"
+          class="block"
+          style="grid-column: 10; grid-row: 1"
+          id="b-1-10"
+          >Finance meeting
+          <div class="arrow">&rarr;</div></a
+        >
+        <a
+          href="#"
+          class="block"
+          style="grid-column: 11; grid-row: 1"
+          id="b-1-11"
+          >Finance meeting klant
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 1; grid-row: 2" id="b-2-1"
+          >Planning maken
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 8; grid-row: 2" id="b-2-8"
+          >BCO
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 9; grid-row: 2" id="b-2-9"
+          >Planning meeting
+          <div class="arrow">&rarr;</div></a
+        >
+        <a
+          href="#"
+          class="block"
+          style="grid-column: 10; grid-row: 3"
+          id="b-3-10"
+          >Finance meeting
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 5; grid-row: 4" id="b-4-5"
+          >Outfitting verwijderen
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 6; grid-row: 4" id="b-4-6"
+          >Info borden opgang
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 7; grid-row: 4" id="b-4-7"
+          >Overdragen onderaannemers
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 8; grid-row: 4" id="b-4-8"
+          >BCO
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 1; grid-row: 5" id="b-5-1"
+          >Planning maken
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 5; grid-row: 5" id="b-5-5"
+          >Outfitting verwijderen
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 8; grid-row: 5" id="b-5-8"
+          >BCO
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 5; grid-row: 6" id="b-6-5"
+          >Outfitting verwijderen
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 5; grid-row: 7" id="b-7-5"
+          >Outfitting verwijderen
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 3; grid-row: 8" id="b-8-3"
+          >Beschermen looproutes
+          <div class="arrow">&rarr;</div></a
+        >
+        <a href="#" class="block" style="grid-column: 5; grid-row: 8" id="b-8-5"
+          >Outfitting verwijderen
+          <div class="arrow">&rarr;</div></a
+        >
+      </div>
+    </div>
+  </body>
+</html>
